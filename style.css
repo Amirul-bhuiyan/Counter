@@ -1,0 +1,75 @@
+/* ========================Font family start here================= */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+/* =========================Universal CSS========================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+/* =========================Body CSS========================== */
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #180161;
+}
+/* =========================CounterAll CSS========================== */
+.CounterAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+/* =========================CounterCard CSS========================== */
+.CounterCard{
+    width: 200px;
+    height: 250px;
+    border: 5px solid #EB3678;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.CounterCard h2{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.CounterCard input{
+    height: 20px;
+    width: 150px;
+    font-size: 18px;
+    background: transparent;
+    color: white;
+}
+.CounterCard button{
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+    color: aliceblue;
+    background: #EB3678;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    transition: all linear .1s;
+}
+.CounterCard button:active{
+    transform: scale(1.1);
+}
+.CounterCard .InputField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.CounterCard h1{
+    font-family: "Orbitron", sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+/* =========================Universal CSS========================== */
+
